@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from "next/link"
+import Footer from "../components/Footer"
 
 export default function Home() {
   return (
@@ -44,26 +44,17 @@ export default function Home() {
             </Link>
           </div>
 
-          <a href="https://github.com/TJdev-codes" className={styles.card}>
-            <h2>Projects &rarr;</h2>
-            <p>Check out some of my projects here.</p>
-          </a>
+          <div className={styles.card}>
+            <a href="https://github.com/TJdev-codes" target="_blank">
+              <h2>Projects &rarr;</h2>
+              <p>Check out my projects here.</p>
+            </a>
+          </div>
 
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }

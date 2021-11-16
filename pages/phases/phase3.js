@@ -1,12 +1,14 @@
 import Link from "next/link"
+import styles from '../../styles/Home.module.css'
+import Footer from "../../components/Footer"
 
 export default function phase3() {
   return (
       <>
       <h1>Third Phase</h1>
-      <h2><Link href="/"><a>Back to Home</a></Link></h2>
-      <h2><Link href="/phases/phase1"><a>Phase 1</a></Link></h2>
-      <h2><Link href="/phases/phase2"><a>Phase 2</a></Link></h2>
+      <h3>Junior Full Time Member of Staff!</h3>
+      <h4>The learning never stops.</h4>
+      <Footer />
       </>
   ) 
 }

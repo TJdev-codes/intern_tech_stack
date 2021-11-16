@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from "next/link"
 import Footer from "../components/Footer"
 
+
 export default function Home() {
   return (
     <div>
@@ -10,8 +11,8 @@ export default function Home() {
         <meta name="description" content="From Intern To Developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
+      
+      <main className="bg-blue-200">
         <h1>The Intern Tech Stack</h1>
 
         <div>
@@ -54,6 +55,8 @@ export default function Home() {
       </main>
 
       <Footer />
+     
     </div>
+
   )
 }

@@ -15,41 +15,41 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
       </Head>
       
-      <main className="bg-red-400 font-poppins">
-        <h1>The Intern Tech Stack</h1>
+      <main className="bg-blue-dark text-yellow font-poppins h-screen">
+        <h1 className="text-6xl text-center pt-24 pb-12 px-2 uppercase tracking-wide">The Intern Tech Stack</h1>
 
-        <div>
+        <div className="flex mx-4 flex-wrap justify-center pb-12 pt-16">
 
-          <div>
+          <div className="text-xl border rounded-lg p-4 m-4 w-64 hover:bg-blue hover:text-blue-dark shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <Link href="/phases/phase1">
               <a>
-                <h2>Start Here &rarr;</h2>
+                <h2 className="uppercase font-semibold">Start Here &rarr;</h2>
                 <p>This is the first step in the journey.</p>
               </a>
             </Link>
           </div>
 
-          <div>
+          <div className="text-xl border rounded-lg p-4 m-4 w-64 hover:bg-blue hover:text-blue-dark shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <Link href="/phases/phase2">
               <a>
-                <h2>Phase 2 &rarr;</h2>
+                <h2 className="uppercase font-semibold">Phase 2 &rarr;</h2>
                 <p>Starting to dive in a little deeper</p>
               </a>
             </Link>
           </div>
 
-          <div>
+          <div className="text-xl border rounded-lg p-4 m-4 w-64 hover:bg-blue hover:text-blue-dark shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <Link href="/phases/phase3">
               <a>
-                <h2>Phase 3 &rarr;</h2>
-                <p>Junior Developer Territory</p>
+                <h2 className="uppercase font-semibold">Phase 3 &rarr;</h2>
+                <p>Junior Front End Developer</p>
               </a>
             </Link>
           </div>
 
-          <div>
+          <div className="text-xl border rounded-lg p-4 m-4 w-64 hover:bg-blue hover:text-blue-dark shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <a href="https://github.com/TJdev-codes" target="_blank">
-              <h2>Projects &rarr;</h2>
+              <h2 className="uppercase font-semibold">Projects &rarr;</h2>
               <p>Check out my projects here.</p>
             </a>
           </div>

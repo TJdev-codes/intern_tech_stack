@@ -10,9 +10,12 @@ export default function Home() {
         <title>Intern Tech Stack</title>
         <meta name="description" content="From Intern To Developer" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
       </Head>
       
-      <main className="bg-blue-200">
+      <main className="bg-red-400 font-poppins">
         <h1>The Intern Tech Stack</h1>
 
         <div>

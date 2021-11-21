@@ -29,7 +29,7 @@ module.exports = {
         "poppins": ["Poppins"]
     },
       backgroundImage: {
-        "pattern": "url('/public/oriental-tiles.png')",
+        "pattern": "url('/public/img/oriental-tiles.png')",
       },
   },
 },
